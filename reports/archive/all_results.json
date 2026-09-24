@@ -1,0 +1,315 @@
+{
+  "status": "archived research output; not a fresh model rerun",
+  "source_sha256": "db560face7698e82d14f74b1c01b5c658fbba0ffa6cd58210218ad475fe3d457",
+  "results": {
+    "exp1_generation": {
+      "by_model": {
+        "unknown": {
+          "total": 1700,
+          "deceptive": 300,
+          "honest": 1400
+        },
+        "gpt-4o-mini": {
+          "total": 341,
+          "deceptive": 341,
+          "honest": 0
+        }
+      },
+      "by_deception_type": {
+        "literal_compliance": 225,
+        "temporal_evasion": 208,
+        "compositional_obfuscation": 208,
+        "honest": 1400
+      },
+      "by_domain": {
+        "code_security": {
+          "total": 821,
+          "deceptive": 221
+        },
+        "healthcare_privacy": {
+          "total": 305,
+          "deceptive": 105
+        },
+        "business_compliance": {
+          "total": 305,
+          "deceptive": 105
+        },
+        "content_moderation": {
+          "total": 305,
+          "deceptive": 105
+        },
+        "legal_contracts": {
+          "total": 305,
+          "deceptive": 105
+        }
+      },
+      "total_trajectories": 2041,
+      "deceptive_trajectories": 641,
+      "honest_trajectories": 1400
+    },
+    "exp2_guardrails": [
+      {
+        "name": "PredicateEngine (step-level)",
+        "detection_rate": 0.046801872074883,
+        "fpr": 0.007142857142857143,
+        "f1": 0.0881057268722467,
+        "by_type": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 14,
+            "detection_rate": 0.06222222222222222
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 4,
+            "detection_rate": 0.019230769230769232
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 12,
+            "detection_rate": 0.057692307692307696
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 10,
+            "detection_rate": 0.007142857142857143
+          }
+        }
+      },
+      {
+        "name": "NaiveConcat (concatenate + check)",
+        "detection_rate": 0.046801872074883,
+        "fpr": 0.007142857142857143,
+        "f1": 0.0881057268722467,
+        "by_type": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 14,
+            "detection_rate": 0.06222222222222222
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 4,
+            "detection_rate": 0.019230769230769232
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 12,
+            "detection_rate": 0.057692307692307696
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 10,
+            "detection_rate": 0.007142857142857143
+          }
+        }
+      },
+      {
+        "name": "PolicySpec (multi-level LTL)",
+        "detection_rate": 0.3619344773790952,
+        "fpr": 0.0007142857142857143,
+        "f1": 0.5308924485125858,
+        "by_type": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 53,
+            "detection_rate": 0.23555555555555555
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 77,
+            "detection_rate": 0.3701923076923077
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 102,
+            "detection_rate": 0.49038461538461536
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 1,
+            "detection_rate": 0.0007142857142857143
+          }
+        }
+      }
+    ],
+    "exp3_effect_accumulation": {
+      "layer1": {
+        "detection_rate": 0.046801872074883,
+        "fpr": 0.007142857142857143,
+        "by_type": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 14,
+            "detection_rate": 0.06222222222222222
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 4,
+            "detection_rate": 0.019230769230769232
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 12,
+            "detection_rate": 0.057692307692307696
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 10,
+            "detection_rate": 0.007142857142857143
+          }
+        }
+      },
+      "layer1_2": {
+        "detection_rate": 0.49765990639625585,
+        "fpr": 0.007857142857142858,
+        "by_type": {
+          "literal_compliance": {
+            "detection_rate": 0.3377777777777778,
+            "total": 225,
+            "detected": 76
+          },
+          "temporal_evasion": {
+            "detection_rate": 0.5432692307692307,
+            "total": 208,
+            "detected": 113
+          },
+          "compositional_obfuscation": {
+            "detection_rate": 0.625,
+            "total": 208,
+            "detected": 130
+          },
+          "honest": {
+            "detection_rate": 0.007857142857142858,
+            "total": 1400,
+            "detected": 11
+          }
+        }
+      },
+      "improvement": 0.45085803432137284
+    },
+    "exp4_trajectory_shield": {
+      "shield_summary": {
+        "total": 2041,
+        "detected": 330,
+        "num_deceptive": 641,
+        "num_detected_deceptive": 319,
+        "allowed": 1711,
+        "detection_rate": 0.49765990639625585,
+        "block_rate": 0.16168544830965212,
+        "blocked_by_layer": {
+          "1": 40,
+          "2": 290,
+          "3": 0
+        },
+        "avg_latency_ms": 0.3569104517393427
+      },
+      "baselines": [
+        {
+          "name": "PredicateEngine (step-level)",
+          "detection_rate": 0.046801872074883
+        },
+        {
+          "name": "NaiveConcat (concatenate + check)",
+          "detection_rate": 0.046801872074883
+        },
+        {
+          "name": "PolicySpec (multi-level LTL)",
+          "detection_rate": 0.3619344773790952
+        }
+      ]
+    },
+    "exp5_by_deception_type": {
+      "systems": {
+        "PredicateEngine (step-level)": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 14,
+            "detection_rate": 0.06222222222222222
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 4,
+            "detection_rate": 0.019230769230769232
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 12,
+            "detection_rate": 0.057692307692307696
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 10,
+            "detection_rate": 0.007142857142857143
+          }
+        },
+        "NaiveConcat (concatenate + check)": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 14,
+            "detection_rate": 0.06222222222222222
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 4,
+            "detection_rate": 0.019230769230769232
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 12,
+            "detection_rate": 0.057692307692307696
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 10,
+            "detection_rate": 0.007142857142857143
+          }
+        },
+        "PolicySpec (multi-level LTL)": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 53,
+            "detection_rate": 0.23555555555555555
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 77,
+            "detection_rate": 0.3701923076923077
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 102,
+            "detection_rate": 0.49038461538461536
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 1,
+            "detection_rate": 0.0007142857142857143
+          }
+        },
+        "TrajectoryShield": {
+          "literal_compliance": {
+            "total": 225,
+            "detected": 76,
+            "detection_rate": 0.3377777777777778
+          },
+          "temporal_evasion": {
+            "total": 208,
+            "detected": 113,
+            "detection_rate": 0.5432692307692307
+          },
+          "compositional_obfuscation": {
+            "total": 208,
+            "detected": 130,
+            "detection_rate": 0.625
+          },
+          "honest": {
+            "total": 1400,
+            "detected": 11,
+            "detection_rate": 0.007857142857142858
+          }
+        }
+      }
+    }
+  }
+}

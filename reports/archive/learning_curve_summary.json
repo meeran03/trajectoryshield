@@ -1,0 +1,181 @@
+{
+  "status": "archived research output; not a fresh model rerun",
+  "source_sha256": "f621c263b994dbdbf7e897017d15f0a642e0f4d975185532323a60e30a568da7",
+  "results": {
+    "10%": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 0.9696969696969697,
+        "fpr": 0.018957345971563982,
+        "precision": 0.96,
+        "f1": 0.964824120603015,
+        "accuracy": 0.9774193548387097,
+        "avg_latency_ms": 2502.236832487547
+      },
+      "confusion_matrix": {
+        "tp": 96,
+        "fp": 4,
+        "tn": 207,
+        "fn": 3
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 0.9428571428571428,
+          "total": 35,
+          "detected": 33
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 0.96875,
+          "total": 32,
+          "detected": 31
+        }
+      },
+      "training_time_s": 982.5381262302399
+    },
+    "25%": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2475.808415048185
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      },
+      "training_time_s": 1111.925538301468
+    },
+    "50%": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2510.3504627890466
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      },
+      "training_time_s": 1364.6655719280243
+    },
+    "75%": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2502.045803833302
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      },
+      "training_time_s": 1572.161358833313
+    },
+    "100%": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2481.7578905036735
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      },
+      "training_time_s": 1776.8252737522125
+    }
+  }
+}

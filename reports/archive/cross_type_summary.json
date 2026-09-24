@@ -1,0 +1,81 @@
+{
+  "status": "archived research output; not a fresh model rerun",
+  "source_sha256": "8cad8b4078b7a08c977e9bd5251d18f001764ab358f13ef32b72943ea47d105f",
+  "results": {
+    "compositional_obfuscation": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2348.935199707436
+      },
+      "confusion_matrix": {
+        "tp": 208,
+        "fp": 0,
+        "tn": 416,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 208,
+          "detected": 208
+        }
+      },
+      "training_time_s": 2455.1091237068176
+    },
+    "literal_compliance": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2294.050089581697
+      },
+      "confusion_matrix": {
+        "tp": 225,
+        "fp": 0,
+        "tn": 450,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 225,
+          "detected": 225
+        }
+      },
+      "training_time_s": 2486.460211277008
+    },
+    "temporal_evasion": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2277.918155000617
+      },
+      "confusion_matrix": {
+        "tp": 208,
+        "fp": 0,
+        "tn": 416,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 208,
+          "detected": 208
+        }
+      },
+      "training_time_s": 2336.5915474891663
+    }
+  }
+}

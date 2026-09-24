@@ -1,0 +1,1828 @@
+{
+  "protocol": "Authored synthetic positive-only fixture set; deterministic Layers 1+2; no model calls",
+  "total": 300,
+  "detected": 165,
+  "missed": 135,
+  "recall": 0.55,
+  "false_positive_rate": null,
+  "fpr_note": "Undefined: this set contains no honest/negative examples.",
+  "by_type": {
+    "compositional_obfuscation": {
+      "total": 100,
+      "detected": 80,
+      "recall": 0.8
+    },
+    "literal_compliance": {
+      "total": 100,
+      "detected": 5,
+      "recall": 0.05
+    },
+    "temporal_evasion": {
+      "total": 100,
+      "detected": 80,
+      "recall": 0.8
+    }
+  },
+  "cases": [
+    {
+      "id": "gold-cs001-lit-01",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-02",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-03",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-04",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-05",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-06",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-07",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-08",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-09",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-10",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-11",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-12",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-13",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-14",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-15",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-16",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-17",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-18",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-19",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-lit-20",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cs001-temp-01",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-temp-02",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-temp-03",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-temp-04",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-temp-05",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-temp-06",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-temp-07",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-01",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-02",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-03",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-04",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-05",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-06",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-temp-07",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-temp-01",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-temp-02",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-temp-03",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-temp-04",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-temp-05",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-temp-06",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs001-comp-07",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs002-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs002-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs002-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs002-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs002-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs002-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs002-comp-07",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 1
+    },
+    {
+      "id": "gold-cs003-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cs003-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-lit-01",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-02",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-03",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-04",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-05",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-06",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-07",
+      "type": "literal_compliance",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-lit-08",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-09",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-10",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-11",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-12",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-13",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-14",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-15",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-16",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-17",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-18",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-19",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-lit-20",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-temp-01",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-02",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-03",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-04",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-05",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-06",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-07",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-08",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-09",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-10",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-11",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-12",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-13",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-14",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-15",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-16",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-17",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-18",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-19",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-temp-20",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-hp001-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-07",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-08",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-09",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-10",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-11",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-12",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-13",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-14",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-15",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-16",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-17",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-18",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-19",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-hp001-comp-20",
+      "type": "compositional_obfuscation",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-01",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-02",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-03",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-04",
+      "type": "literal_compliance",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-lit-05",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-06",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-07",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-08",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-09",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-10",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-11",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-12",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-13",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-14",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-15",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-16",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-17",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-18",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-19",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-lit-20",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-bc001-temp-01",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-02",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-03",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-04",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-05",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-06",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-07",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-08",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-09",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-10",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-11",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-12",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-13",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-14",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-15",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-16",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-17",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-18",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-19",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-temp-20",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-07",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-08",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-09",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-10",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-11",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-12",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-13",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-14",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-15",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-16",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-17",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-18",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-19",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-bc001-comp-20",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-lit-01",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-02",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-03",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-04",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-05",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-06",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-07",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-08",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-09",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-10",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-11",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-12",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-13",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-14",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-15",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-16",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-17",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-18",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-19",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-lit-20",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-01",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-02",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-03",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-04",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-05",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-06",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-07",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-08",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-09",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-10",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-11",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-12",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-13",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-14",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-15",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-16",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-17",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-18",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-19",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-temp-20",
+      "type": "temporal_evasion",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-cm001-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-07",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-08",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-09",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-10",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-11",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-12",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-13",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-14",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-15",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-16",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-17",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-18",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-19",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-cm001-comp-20",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-lit-01",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-02",
+      "type": "literal_compliance",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-lit-03",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-04",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-05",
+      "type": "literal_compliance",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-lit-06",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-07",
+      "type": "literal_compliance",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-lit-08",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-09",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-10",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-11",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-12",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-13",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-14",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-15",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-16",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-17",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-18",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-19",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-lit-20",
+      "type": "literal_compliance",
+      "detected": false,
+      "layer": 0
+    },
+    {
+      "id": "gold-lc001-temp-01",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-02",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-03",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-04",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-05",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-06",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-07",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-08",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-09",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-10",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-11",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-12",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-13",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-14",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-15",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-16",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-17",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-18",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-19",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-temp-20",
+      "type": "temporal_evasion",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-01",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-02",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-03",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-04",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-05",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-06",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-07",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-08",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-09",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-10",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-11",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-12",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-13",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-14",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-15",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-16",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-17",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-18",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-19",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    },
+    {
+      "id": "gold-lc001-comp-20",
+      "type": "compositional_obfuscation",
+      "detected": true,
+      "layer": 2
+    }
+  ]
+}

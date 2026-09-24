@@ -1,0 +1,127 @@
+{
+  "origin": "Existing private alignment research; selected implementation files only",
+  "original_commit": "a21fd9efaa48a6cb94564a5d763153119dcfbc76",
+  "transform": "Rename src imports to trajectoryshield; release changes documented in release-notes.md",
+  "files": [
+    {
+      "path": "trajectoryshield/predicates.py",
+      "original_sha256": "41c2ccffa1452a82821b979ea7e43f350d33788ab2475689367982e918e57a57"
+    },
+    {
+      "path": "trajectoryshield/__init__.py",
+      "original_sha256": "56a8928415934c83c29195cece5654374a3cc51ced31f98d5bcf70d6ad023cb2"
+    },
+    {
+      "path": "trajectoryshield/taxonomy/ltl_properties.py",
+      "original_sha256": "00b28bbf231ad41dcf071badccc784d6908a2968697aec960c7cb30bf34e72bc"
+    },
+    {
+      "path": "trajectoryshield/taxonomy/__init__.py",
+      "original_sha256": "b2176c8aacc8e9889d6fe46b825267ce6698224cbe6122773fc21ad333f7bd93"
+    },
+    {
+      "path": "trajectoryshield/taxonomy/policy_specs.py",
+      "original_sha256": "e71f24ab0a34b51383c33ffabed0774430709c9aab309962dd366d65ccca698a"
+    },
+    {
+      "path": "trajectoryshield/taxonomy/deception_types.py",
+      "original_sha256": "5677ac7ae4b82bb07db0ee4f5fdf6234f079504e2f07e623cc1fcdcb7a051ca1"
+    },
+    {
+      "path": "trajectoryshield/benchmark/validate_benchmark.py",
+      "original_sha256": "248e9b0b582c9938159a86b064fb145e9568fe1f99441325ec780da198a657ae"
+    },
+    {
+      "path": "trajectoryshield/benchmark/generate_honest.py",
+      "original_sha256": "cf10d2f2bca94a180dbb316c5c70c57ae1bd4a68447a0ca1aa54833fb1304539"
+    },
+    {
+      "path": "trajectoryshield/benchmark/__init__.py",
+      "original_sha256": "07d773be1ea32d739882517e9c2726f299d26aab6d07033250843d37fa394ba1"
+    },
+    {
+      "path": "trajectoryshield/benchmark/trajectory_schema.py",
+      "original_sha256": "a1ca03ef1876b9d60a2d57146e0982a743c0befbd6a38b4b79c74a83e0c3c7d8"
+    },
+    {
+      "path": "trajectoryshield/benchmark/gold_standard/__init__.py",
+      "original_sha256": "cd0554a3a3b8e548c983c2582d966a89c58e867e952d2c55bf441a632fb8faaa"
+    },
+    {
+      "path": "trajectoryshield/benchmark/gold_standard/content_moderation.py",
+      "original_sha256": "c3fc0c37ab47a7dd063dd5ea6977ac37882e87469338e42f837df4bd73442040"
+    },
+    {
+      "path": "trajectoryshield/benchmark/gold_standard/code_security.py",
+      "original_sha256": "b425be409f01b12ab57b5b1475525a2c4c1c54cc148f4e2fcb61272e92caaefd"
+    },
+    {
+      "path": "trajectoryshield/benchmark/gold_standard/business_compliance.py",
+      "original_sha256": "b037bccdcda275a4bbc1d1e2977d3fc0343eb4370dbfb41b05b5469b3d0f168b"
+    },
+    {
+      "path": "trajectoryshield/benchmark/gold_standard/legal_contracts.py",
+      "original_sha256": "b566562022794468416bdaea6a5adaa459c3d0206e4196c784497668ef9ab0cc"
+    },
+    {
+      "path": "trajectoryshield/benchmark/gold_standard/healthcare_privacy.py",
+      "original_sha256": "41ff422901811d7d992afbfeab4bfab122a325f5cda23a66de95bc356533e348"
+    },
+    {
+      "path": "trajectoryshield/red_team/guardrail_adapter.py",
+      "original_sha256": "a7a7cb5a5fbb4a00fe4a5bafc0a4f6041bc825b7be6c51ab8f7f4a3c804855a8"
+    },
+    {
+      "path": "trajectoryshield/red_team/__init__.py",
+      "original_sha256": "73599922b25798b568c6e84c4fb00816413d375ffbfec13973d513d2868e1037"
+    },
+    {
+      "path": "trajectoryshield/red_team/evaluate_guardrails.py",
+      "original_sha256": "85e9bbaaad97b2684a28034549209ce3f4aea715baaa9dbc7ef3c10983ce9ddc"
+    },
+    {
+      "path": "trajectoryshield/red_team/adapters/policy_spec_adapter.py",
+      "original_sha256": "79a89d60c75031c508a21b664b717b1a8bed65c807abcbc8ce826364614bac3e"
+    },
+    {
+      "path": "trajectoryshield/red_team/adapters/__init__.py",
+      "original_sha256": "918145682050d395d2b45379e30bcaab240537dc0b9b82f960950bea121d90bd"
+    },
+    {
+      "path": "trajectoryshield/red_team/adapters/llm_judge_adapter.py",
+      "original_sha256": "26cc241385c50078689291f78750ef613db46b12c7e7fa59c0770ef8aa991f60"
+    },
+    {
+      "path": "trajectoryshield/red_team/adapters/naive_concat_adapter.py",
+      "original_sha256": "9052298b16b869f06e0382f5bba1186b981f6d516776164a3a3ec974b25dc748"
+    },
+    {
+      "path": "trajectoryshield/red_team/adapters/predicate_adapter.py",
+      "original_sha256": "609501b3e419b8b0f03e98d7f3fee5f38ec3384c3cf734970c35bbe17a839b64"
+    },
+    {
+      "path": "trajectoryshield/trajectory_shield/effect_tracker.py",
+      "original_sha256": "7e57a339870acbabb7d5722692c00a6328537129f1c64d13208ac4e4deb72c07"
+    },
+    {
+      "path": "trajectoryshield/trajectory_shield/classifier.py",
+      "original_sha256": "a9aa4ddb581b29c7cb64693a12065d327238bf72e0f72e40d2f39ea92b082b37"
+    },
+    {
+      "path": "trajectoryshield/trajectory_shield/trajectory_judge.py",
+      "original_sha256": "f46457447aec3a28249729930e6f6d08a9bcaf88960e99294228a5e620a01a18"
+    },
+    {
+      "path": "trajectoryshield/trajectory_shield/shield.py",
+      "original_sha256": "f6ab4252645fd37b2e37422c92f3a83b04a67c59846e8be9b03a4f6c6ff3ae5a"
+    },
+    {
+      "path": "trajectoryshield/trajectory_shield/__init__.py",
+      "original_sha256": "47bd2b9db16641e31f6a43a7b7e7e76de4f0fcd1531a1a2337f7f901c480dfc1"
+    },
+    {
+      "path": "trajectoryshield/trajectory_shield/train_classifier.py",
+      "original_sha256": "ed767b217c4c38193730fceceb07db9cbc1f42f78402c2619171314b5190726d"
+    }
+  ]
+}

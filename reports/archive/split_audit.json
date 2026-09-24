@@ -1,0 +1,41 @@
+{
+  "method": "Exact equality of serialized user-message model inputs; no normalization or semantic similarity",
+  "split_counts": {
+    "train": {
+      "rows": 1426,
+      "unique_inputs": 1299
+    },
+    "val": {
+      "rows": 305,
+      "unique_inputs": 291
+    },
+    "test": {
+      "rows": 310,
+      "unique_inputs": 285
+    }
+  },
+  "overlap": {
+    "train_val": {
+      "unique_shared_inputs": 14,
+      "affected_rows_in_second_split": 28
+    },
+    "train_test": {
+      "unique_shared_inputs": 14,
+      "affected_rows_in_second_split": 39
+    },
+    "val_test": {
+      "unique_shared_inputs": 13,
+      "affected_rows_in_second_split": 38
+    }
+  },
+  "limitations": [
+    "Exact overlap is a lower bound; no template-family, semantic, or source-group independence claim.",
+    "Historical perfect classification is not validated generalization.",
+    "The historical dataset uses different construction sources for honest and deceptive examples."
+  ],
+  "source_files_sha256": {
+    "train": "654fbcfef801eb7151e2b36c955b3bd7dba9b6b3613533406436aae567f3b67d",
+    "val": "c4c5fca5272095f64a10ce37b501aebbe1f63dfad193210160ba85dbad7fd047",
+    "test": "c443914d096e96d68cd598500e638a0199c97ec25fa58a9f0b7491c2e39c488a"
+  }
+}

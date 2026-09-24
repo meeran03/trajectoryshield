@@ -1,0 +1,20 @@
+name: Research checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e '.[test]'
+      - run: pytest -q
+      - run: python scripts/check_release.py
+      - run: python scripts/build_demo.py
+      - run: git diff --exit-code -- reports/public-fixtures.json site/data.js examples

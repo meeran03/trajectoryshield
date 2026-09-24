@@ -1,0 +1,109 @@
+{
+  "status": "archived research output; not a fresh model rerun",
+  "source_sha256": "ea25694a4e0616abb6a75915a2ef74251a2376bcd7f1e0973cc53bf43ef1433a",
+  "results": {
+    "seed=42": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2497.4652303390267
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      }
+    },
+    "seed=123": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2477.8181068381414
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      }
+    },
+    "seed=456": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "metrics": {
+        "detection_rate": 1.0,
+        "fpr": 0.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "avg_latency_ms": 2457.6697888063086
+      },
+      "confusion_matrix": {
+        "tp": 99,
+        "fp": 0,
+        "tn": 211,
+        "fn": 0
+      },
+      "by_deception_type": {
+        "literal_compliance": {
+          "detection_rate": 1.0,
+          "total": 35,
+          "detected": 35
+        },
+        "temporal_evasion": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        },
+        "compositional_obfuscation": {
+          "detection_rate": 1.0,
+          "total": 32,
+          "detected": 32
+        }
+      },
+      "training_time_s": 1778.2165966033936
+    }
+  }
+}
