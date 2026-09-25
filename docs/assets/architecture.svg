@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+  <title id="title">TrajectoryShield evaluation architecture</title>
+  <desc id="desc">A selected policy and recorded trajectory pass through individual-action predicates, accumulated effects and temporal constraints, then an optional judge or classifier. Any flag short-circuits evaluation. Only the first two layers run by default. No flag is not a security guarantee.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#8dd9bb"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="740" rx="24" fill="#0e1c17"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="53" font-size="15" fill="#8dd9bb" font-weight="700">TRAJECTORYSHIELD / EVALUATION FLOW</text>
+    <text x="48" y="102" font-size="36" fill="#d3ebe2" font-weight="700">Read actions in context.</text>
+    <text x="48" y="139" font-size="20" fill="#a0b7ae" font-weight="400">Policy + recorded tool sequence → layered checks → an inspectable verdict.</text>
+    <rect x="48" y="181" width="1104" height="65" rx="16" fill="#182c26" stroke="#35584b" stroke-width="2" stroke-dasharray=""/>
+    <text x="72" y="221" font-size="16" fill="#8dd9bb" font-weight="700">INPUT</text>
+    <text x="171" y="222" font-size="23" fill="#d3ebe2" font-weight="400">A selected policy and a recorded trajectory</text>
+    <rect x="48" y="299" width="304" height="157" rx="16" fill="#182c26" stroke="#35584b" stroke-width="2" stroke-dasharray=""/>
+    <text x="70" y="330" font-size="14" fill="#8dd9bb" font-weight="700">01 / DEFAULT</text>
+    <text x="70" y="368" font-size="23" fill="#d3ebe2" font-weight="700">Step-level predicates</text>
+    <text x="70" y="401" font-size="18" fill="#a0b7ae" font-weight="400">Inspect individual actions</text>
+    <text x="70" y="430" font-size="18" fill="#a0b7ae" font-weight="400">for policy violations.</text>
+    <rect x="448" y="299" width="304" height="157" rx="16" fill="#182c26" stroke="#35584b" stroke-width="2" stroke-dasharray=""/>
+    <text x="470" y="330" font-size="14" fill="#8dd9bb" font-weight="700">02 / DEFAULT</text>
+    <text x="470" y="368" font-size="23" fill="#d3ebe2" font-weight="700">Accumulated effects</text>
+    <text x="470" y="401" font-size="18" fill="#a0b7ae" font-weight="400">Track combined effects</text>
+    <text x="470" y="430" font-size="18" fill="#a0b7ae" font-weight="400">and temporal constraints.</text>
+    <rect x="848" y="299" width="304" height="157" rx="16" fill="#252c23" stroke="#8a754e" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="870" y="330" font-size="14" fill="#f5c573" font-weight="700">03 / OPTIONAL</text>
+    <text x="870" y="368" font-size="23" fill="#d3ebe2" font-weight="700">Judge or classifier</text>
+    <text x="870" y="401" font-size="18" fill="#a0b7ae" font-weight="400">Research model modules;</text>
+    <text x="870" y="430" font-size="18" fill="#a0b7ae" font-weight="400">off in the public demo.</text>
+    <path d="M200 247 V296" fill="none" stroke="#8dd9bb" stroke-width="2.5" stroke-dasharray="" marker-end="url(#arrow)"/>
+    <path d="M353 377 H445" fill="none" stroke="#8dd9bb" stroke-width="2.5" stroke-dasharray="" marker-end="url(#arrow)"/>
+    <path d="M753 377 H845" fill="none" stroke="#8dd9bb" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+    <text x="365" y="361" font-size="14" fill="#a0b7ae" font-weight="400">pass</text>
+    <text x="758" y="352" font-size="14" fill="#a0b7ae" font-weight="400">pass +</text>
+    <text x="758" y="370" font-size="14" fill="#a0b7ae" font-weight="400">enabled</text>
+    <path d="M200 458 V535" fill="none" stroke="#8dd9bb" stroke-width="2.5" stroke-dasharray="" marker-end="url(#arrow)"/>
+    <path d="M600 458 V535" fill="none" stroke="#8dd9bb" stroke-width="2.5" stroke-dasharray="" marker-end="url(#arrow)"/>
+    <path d="M1000 458 V535" fill="none" stroke="#8dd9bb" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+    <text x="223" y="505" font-size="15" fill="#f5c573" font-weight="400">flag</text>
+    <text x="623" y="505" font-size="15" fill="#f5c573" font-weight="400">flag / no flag*</text>
+    <text x="1023" y="505" font-size="15" fill="#f5c573" font-weight="400">verdict</text>
+    <rect x="48" y="538" width="1104" height="94" rx="16" fill="#263b31" stroke="#617258" stroke-width="2" stroke-dasharray=""/>
+    <text x="72" y="577" font-size="26" fill="#d3ebe2" font-weight="700">Verdict + explanation</text>
+    <text x="72" y="612" font-size="20" fill="#a0b7ae" font-weight="400">A flag ends evaluation early. No flag does not establish safety.</text>
+    <text x="48" y="675" font-size="18" fill="#a0b7ae" font-weight="400">* Layers 1 + 2 power the public demo and default benchmark; Layer 3 is optional.</text>
+    <text x="48" y="709" font-size="17" fill="#a0b7ae" font-weight="400">Research prototype · heuristic policy signals · recorded actions are not executed by the demo</text>
+  </g>
+</svg>
